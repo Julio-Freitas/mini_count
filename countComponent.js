@@ -10,7 +10,6 @@
     constructor() {
       this.init();
     }
-
     prepareCountProxy() {
       const handle = {
         set: (curentContext, propertyKey, newValue) => {
